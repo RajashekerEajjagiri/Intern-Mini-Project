@@ -1,0 +1,55 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   <style>
+body {
+  background-image: url('user.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 30% 100%;
+
+}
+</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="mainhome">Home</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="viewflights">View Flights</a></li>
+      <li><a href="updateuser?email=${email }">Update Details</a></li>
+      <li><a href="bookticket">Book Ticket</a></li>
+    </ul>
+	<ul class="nav navbar-nav navbar-right">
+      <li><a href="logout"><span class="glyphicon glyphicon-user"></span>Log Out</a></li>
+     </ul>
+  </div>
+</nav>
+<div class="container">
+
+<h1 style="color:Red" align="center"><b>USER HOME</b></h1><br><br><br>
+
+<h1 style="color:black" align="center">Welcomes You  ${name}</h1>
+
+  </div>
+
+
+
+<!--  -<a href="home">Home</a>
+<a href="viewflights">View Flights</a>
+<a href="bookticket">Book Ticket</a>
+<a href="updateuser?email=${email }">Update Details</a>-->
+
+</body>
+</html>

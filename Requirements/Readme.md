@@ -46,8 +46,7 @@ engine, global distribution systems and interlines booking with case study of Rw
  - Trustworthy and Reliable in all aspects
  
  # Defining The System
- ![system](https://github.com/RajashekerEajjagiri/Airlines_Reservation-System/blob/6beda2666bac2e94587ea754dc1ff5ad1b58ea6f/1_Requirements/design.JPG)
-   
+ ![system](https://github.com/RajashekerEajjagiri/Intern-Mini-Project/blob/5578525111a2074b7efb3186fe46e175f48b7a6c/Requirements/Systemdesign.JPG)
  # SWOT ANALYSIS
  ![swot](https://github.com/RajashekerEajjagiri/Airlines_Reservation-System/blob/76fa6ea685949a6104506b12b03adb159b4ab320/1_Requirements/swot.jpg)
  # 4W's and 1'H
